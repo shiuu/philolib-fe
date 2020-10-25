@@ -6,6 +6,7 @@
     <div class="get-started">
       Welcome to the <router-link to="/books">Library for Philosophers</router-link>!
     </div>
+    <div>Developed by: Nigel Zhou</div>
   </div>
 </template>
 
@@ -29,5 +30,6 @@ export default {
 .get-started {
   padding-top: 20px;
   font-size: 25px;
+  margin-bottom: 30px;
 }
 </style>

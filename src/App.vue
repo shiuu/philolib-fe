@@ -22,7 +22,7 @@
         </ul>
       </nav>
     </header>
-    <div class="container">
+    <div class="box">
       <aside class="aside">
         <router-view name="sidebar"/>
       </aside>
@@ -59,7 +59,7 @@ main {
 }
 header {
   background-color: #999;
-  width: 1184px;
+  max-width: 1124px;
   margin: 0 auto;
 }
 ul {
@@ -83,7 +83,7 @@ ul {
 .router-link-active {
   color: white;
 }
-.container {
+.box {
   display: flex;
   margin: 10px auto 0 auto;
   justify-content: center;
@@ -91,7 +91,7 @@ ul {
 .aside {
   padding: 30px;
   background-color: #aaa;
-  width: 100px;
+  width: 160px;
   min-height: 300px;
 }
 </style>

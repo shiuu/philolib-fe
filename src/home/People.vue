@@ -105,6 +105,8 @@ export default {
   }
   .item-info {
     font-size: 14px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     border-top: 1px solid #dee2e6;
   }
   .items-btn {
